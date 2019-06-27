@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input-->
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <h1>Are you a Male or Female</h1>
+        <form action="/submit-form".com" method="GET">
+            <!-- Radio boxes are mainly selected for one option, ie: male or female -->
+            <label for="male"> Male
+                <input type="radio" name="genderSelection" id="male" value="male"> <!-- name tag use for both to identify eiter of, it wont let you select more than twice-->
+            </label>
+            <label for="female">
+                Female: 
+                <input type="radio" name="genderSelection" id="=female" value="female">
+            </label>
+
+            <!-- Dropdown Menu-->
+            <h1>Here are the staff memebers</h1>
+            <select name="staffNames" id="staffNames">
+                <option value="rene">Rene Ramirez</option> <!-- Value gives it the identifier or the value it needs-->
+                <option value="enzo">Enzo Surdam</option>
+            </select>
+
+            <!-- Text Area allows to collect paragraph or longer text -->
+            <textarea name="paragraph" id="textInput" cols="100" rows="10"></textarea>
+
+            <input type="submit">
+        </form>
+    </body>
+</html>

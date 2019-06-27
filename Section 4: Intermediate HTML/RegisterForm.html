@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+    </head>
+    <body>
+        <h1>Register</h1>
+        <form action="/form-submit" method="GET">
+            <!-- firstName & lastName-->
+            
+            <label for="firstName">
+                First Name: <input type="text" name="firstName" id="firstName" placeholder="John" required>
+            </label>
+            <label for="lastName">
+                Last Name: <input type="text" name="lastName" id="lastName" placeholder="Smith" required>
+            </label>
+            <br>
+
+            <!-- Male, Female, Other-->
+            <label for="male">
+                Male <input type=radio name="genderSelection" value="male">
+            </label>
+            <label for="female">
+                Female <input type="radio" name="genderSelection" value="female">
+            </label>
+            <label for="other">
+                Other <input type="radio" name="genderSelection" value="other">
+            </label>
+            <br>
+
+            <!-- Email & Password-->
+            <label>
+                Email: <input type="email" placeholder="your email" required>
+            </label>
+            <label>
+                Password: <input type="password" placeholder="your password" required minlength="5" maxlength="10" ><!-- or pattern=".{5,10}" required title ="Password must be between 5 and 10 chars"-->
+            </label>
+            <br>
+
+            <!-- Birthdate -->
+            <label>
+                Birthday: 
+                <select name="BirthdayMonths" id="months">
+                    <option value="month" selected disabled>Month</option>
+                    <option value="Jan">jan</option>
+                    <option value="Feb">feb</option>
+                    <option value="Mar">mar</option>
+                    <option value="Apr">apr</option>
+                    <option value="May">may</option>
+                    <option value="Jun">jun</option>
+                    <option value="Jul">jul</option>
+                    <option value="Aug">aug</option>
+                    <option value="Sep">sep</option>
+                    <option value="Oct">oct</option>
+                    <option value="Nov">nov</option>
+                    <option value="Dec">dec</option>
+                </select>
+                <select name="BirthdayDay" id="days">
+                    <option value="day" selected disabled>Day</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <select name="BirthdayYear" id="Year">
+                    <option value="year" selected disabled>Year</option>
+                    <option value="2000">2000</option>
+                    <option value="1999">1999</option>
+                    <option value="1998">1998</option>
+                    <option value="1997">1997</option>
+                    <option value="1996">1996</option>
+                    <option value="1995">1995</option>
+                    <option value="1994">1994</option>
+                </select>
+            </label>
+            <br>
+
+            <!-- Agree -->
+            <label for="agreeToTerms">
+                I agree to the terms and conditions <input type="checkbox" name="TermsAndConditions" id="agreeToTerms">
+            </label>
+            <br>
+            <!-- Submit Button-->
+            <input type="submit">
+        </form>
+    </body>
+</html>
