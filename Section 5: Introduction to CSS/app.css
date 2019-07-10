@@ -1,0 +1,97 @@
+/*colours.neilorangepeel.com*/
+h1{
+    color: red;
+}
+h4{
+    color: palevioletred;
+}
+
+li{
+    color: #008899;
+}
+
+
+/*Colors in the Hexa decimal system
+
+HEXADECIMAL - Base 16
+0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F
+
+All colors contain 6 numbers followed by a # sign
+
+# 0 0 | 0 0 | 0 0 - Black
+# F F | F F | F F - White
+
+first two numbers are how much red, the higger the value the more color is added
+# 0 0 | _ _ | _ _ - Lowest level of red 
+# F F | _ _ | _ _ - Highest level of red
+
+The middle two represent how much green,
+# _ _ | 0 0 | _ _ - Lowest level of green
+# _ _ | F F | _ _ - highest level of green
+
+The last two represent how much blue
+# _ _ | _ _ | 0 0 - Lowest level of blue
+# _ _ | _ _ | F F - Highest level of blue
+
+#91274F
+
+#000FAE
+*/
+
+
+h1{
+    color: rgb(125,150,100);
+}
+
+/*
+RGB 3 cahnnels RED, GREEN, BLUE. each ranges from 0-255
+
+rgb( 0 , 0 , 0 ) - Black
+rgb( 255 , 255, 255 )- White
+
+The first represents how much red
+rgb( 0 ,  _ ,  _ ) - Lowest level of red
+rgb( 255 , _ , _ ) - Highest level of red
+
+the middle represents how much green
+rgb( _ , 0 , _ ) - Lowest level of red
+rgb( _ , 255 , _ ) - highest level of red
+
+last one
+rgb( _ , _ , 0 ) - Lowest level of blue
+rgb( _ , _ , 255 ) - Highest level of blue
+
+
+*/
+
+h1{
+   color: rgba(0,0,0,0.6);
+}
+
+/*
+RGBA Just like RGB, but with an alpha(transparency) channel. ranges from 0.0 - 1.0
+
+rgba( 0 , 0 , 0 , 0.0 ) - Black transparent
+rgba( 0 , 0 , 0 , 1.0 ) - Black
+
+rgba( 255 , 255, 255 , 0.0 )- White transparent
+rgba( 255 , 255, 255 , 1.0 ) - White
+
+The first represents how much red
+rgba( 0 ,  _ ,  _ , _ ) - Lowest level of red
+rgba( 255 , _ , _ , _ ) - Highest level of red
+
+The middle represents how much green
+rgba( _ , 0 , _ , _ ) - Lowest level of red
+rgba( _ , 255 , _ , _ ) - highest level of red
+
+3rd one represents how much blue
+rgba( _ , _ , 0 , _ ) - Lowest level of blue
+rgba( _ , _ , 255 , _ ) - Highest level of blue
+
+last one represents how much transparency
+rgba( _ , _ , _ , 0.0 ) - More transparent
+rgba( - , - , - , 0.5 ) - Half transparent
+rgba( _ , _ , _ , 1.0 ) - Less transparent
+
+*/

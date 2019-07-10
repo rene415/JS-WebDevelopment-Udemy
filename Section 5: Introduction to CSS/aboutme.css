@@ -1,0 +1,23 @@
+h1 {
+    color: rgba(0, 200,100, 0.8);
+    /*
+    width 
+    color 
+    style*/
+    border-color: purple;
+    border-width: 5px;
+    border-style: solid;
+
+    border: 1px dashed rgb(255, 100, 80);
+}
+
+h4 {
+    background: rgb(255, 100, 80);
+}
+body {
+   background: pink;
+
+    /* background: url(https://previews.123rf.com/images/elovich/elovich1704/elovich170400686/75385823-white-wood-texture-background-wooden-table-top-view.jpg);
+    background-repeat: no-repeat; /*backround image does not repeat
+    background-size: cover; /*the background images covers the whole screen*/
+}

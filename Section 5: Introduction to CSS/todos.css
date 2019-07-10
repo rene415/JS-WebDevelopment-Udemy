@@ -1,0 +1,15 @@
+/* this refers to the element
+all cases that this elements come up*/
+li {
+    border: 2px solid rebeccapurple;
+}
+
+/* # follwed by the sign calls that one time id to apply attributes */
+#special{
+    background-color: yellow;
+}
+
+/* . followed by name of class allows to change the different elements at the same time*/
+.completed{
+    text-decoration: line-through;
+}

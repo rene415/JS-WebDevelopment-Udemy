@@ -1,0 +1,19 @@
+/*csszengarden.com*/
+
+selector {
+    property: value;
+    anotherproperty: value;
+
+}
+
+/*Make all h1's purple abnd 56px font*/
+h1{
+    color: purple;
+    font-size: 56px;
+}
+
+/*give all img's a 3px red border*/
+img {
+    border-color: red;
+    border-width: 3px;
+}
