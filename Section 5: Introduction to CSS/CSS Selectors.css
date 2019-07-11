@@ -1,0 +1,53 @@
+/* Element */
+li{
+
+}
+/* Class */
+.hello{
+
+}
+/*id*/
+#name{
+
+}
+/* Star 
+The star symbol will target every single element on the page.
+*/
+*{
+    border: 1px solid black;
+}
+
+/* Desecendants Selector 
+chain collected, only change the <a> tag inside the <li> elements
+*/
+li a{
+    color: red;
+}
+/* works on any other item*/
+div #hello {
+    color: yellow;
+}
+
+/*Adjecent Selector
+Select all after a certain element*/
+h4 + ul{
+    border: 4px solid red;
+}
+
+/* Attribute Selector 
+Select elements from any attribute*/
+a[href="http://google.com"]
+{
+    background: blue;
+}
+
+input[type="text"]{
+    color: orange;
+}
+
+/*nth of Type
+every nth  of each type will change*/
+
+li:nth-of-type(3){
+    background: purple;
+}
