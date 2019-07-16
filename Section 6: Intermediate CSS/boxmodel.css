@@ -1,0 +1,30 @@
+p{
+/* Content - Width And Height */
+
+    width: 50%;
+
+/* Border */
+
+    border: 2px solid red;
+
+/* Padding */
+
+    padding-left: 10px;
+
+/* Margin */
+    /* margin-top: 100px */
+    /* margin: 10px; */
+    /* margin: (top)px (bottom)px (right)px (left)px; */
+    /* margin: 0(top margin) auto 0(bottom margin) auto; */
+    margin: 10px 20px 100px 0;
+
+/* Google Fonts
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Viga', sans-serif;
+    font-family: 'Special Elite', cursive;
+*/
+
+    font-family: 'Viga';
+}

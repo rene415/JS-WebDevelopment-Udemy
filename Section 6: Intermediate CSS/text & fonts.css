@@ -1,0 +1,49 @@
+/* font-family */
+
+p {
+    font-family: Arial;
+}
+
+h1{
+    font-family: 'Barriecito';
+}
+
+p{
+    font-family: 'Russo Uno';
+}
+
+/* font-size 
+em is relative size ie: if font size in that element is 25px, a 2.0em will be double that size
+original size depends on browser, but most most liklely it will be 16px
+*/
+h1{
+    font-size: 100px;
+}
+
+/* font-weight
+There is different font weight but there is also option for font wieght to be between 100...800  every hunderd*/
+
+p{
+    font-weight: bold;
+}
+
+/* line-height 
+Multiples amount of space  between chars, */
+
+p{
+    line-height: 1.3;
+}
+
+/* text-align */
+
+h1{
+    text-align: right;
+}
+
+
+/* text-decoration */
+
+p{
+    text-decoration: line-through;
+}
+
