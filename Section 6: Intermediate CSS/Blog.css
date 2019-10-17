@@ -1,3 +1,43 @@
+/* lowercase: makes all of the letters in the selected text lowercase.
+uppercase: makes all of the letters in the selected text uppercase or ALL CAPS.
+capitalize: capitalizes the first letter of each word in the selected text.
+none: leaves the text's case and capitalization exactly as it was entered.
+inherit: gives the text the case and capitalization of its parent.
+full-width: Is a keyword forcing the writing of a character (mainly ideograms and latin scripts) inside a square, allowing them to be aligned in the usual East Asian scripts. */
+
 body{
-    border: 30px solid #bdc3c7;
+    border: 20px solid #bdc3c7;
+    font-family: Source Sans Pro;
+    font-size: 20px;
+    font-weight: 400;
+    max-width:700px;
+    width:80%;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.date{
+    color: #3498db;
+    letter-spacing: 0.2em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.title{
+    color: #2c3e50;
+    text-transform: capitalize;
+    font-weight: 900;
+    font-size: 30PX;
+    letter-spacing: 0.04em;
+}
+
+.intro{
+    border-left: 6px solid #bdc3c7;
+    padding-left: 1%;
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
