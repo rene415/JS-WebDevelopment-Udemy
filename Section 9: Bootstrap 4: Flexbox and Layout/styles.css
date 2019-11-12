@@ -1,0 +1,7 @@
+.navbar-name{
+    text-transform: uppercase;
+}
+
+#header{
+    background: url("https://images.unsplash.com/photo-1533912352517-92dd08116ea4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1271&q=80") center center / cover no-repeat;
+}
