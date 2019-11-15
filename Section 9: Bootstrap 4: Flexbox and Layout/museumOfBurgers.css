@@ -1,0 +1,22 @@
+body{
+    background: #f5d9d5;
+    font-family:"Nunito", sans-serif;
+}
+
+#mainNavbar, #mainNavbar .navbar-brand{
+    font-size: 1.5rem;
+    font-weight: 100;
+    text-transform: uppercase;
+}.fa-hamburger{font-size: 2rem;}
+
+#mainNavbar .nav-link{
+    color: white;
+}
+#mainNavbar .nav-link:hover{
+    color: #EA1C2C;
+}
+#mainNavbar .navbar-brand, .fa-hamburger{
+    color: #EA1C2C;
+}
+
+
